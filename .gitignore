@@ -1,6 +1,6 @@
-.idea/
+/idea/
 *.iml
-.cmake-build-debug/
-.ads/
-.ad-descriptors/
-.tv/
+/cmake-build-debug/
+/ads/
+/ad-descriptors/
+/tv/
