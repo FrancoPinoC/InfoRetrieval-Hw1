@@ -1,7 +1,9 @@
 /.idea/
 *.iml
 /cmake-build-debug/
-/ads/
-/ad-descriptors/
-/tv/
+/ads/*
+/ad-descriptors/*
+/tv/*
+AdsDirectory
+mega*\.txt
 main\.cpp
