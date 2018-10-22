@@ -19,6 +19,10 @@ std::string extractNameFromPath(const std::string &fullPath) {
     return name;
 }
 
+unsigned long amountSampled(unsigned long totalFrames, int sampleRate) {
+    return (((totalFrames - 1)/ sampleRate) + 1);
+}
+
 // Euclidean distance func (without square-rooting)
 long euclideanDist(std::vector<int> &a, std::vector<int> &b) {
     long res = 0;
